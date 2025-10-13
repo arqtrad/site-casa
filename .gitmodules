@@ -1,0 +1,6 @@
+[submodule "src/_data/schemata"]
+	path = src/_data/schemata
+	url = ssh://git@codeberg.org/tradicional/schemata.git
+[submodule "tools"]
+	path = tools
+	url = ssh://git@codeberg.org/tradicional/site-tools.git

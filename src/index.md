@@ -3,7 +3,7 @@ title: "Casa tradicional luso-brasileira"
 description: >
   Documentário da arquitetura doméstica publicada na bibliografia de referência
 layout: "layouts/splash.njk"
-locale: "pt-BR"
+locale: "pt-PT"
 classes:
   - "splash"
   - "wide"

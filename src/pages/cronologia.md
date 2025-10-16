@@ -5,7 +5,7 @@ author_profile: false
 layout: "layouts/timeline.njk"
 header:
   actions:
-    - href: '/casa/'
+    - href: '/w/'
       label: "Ver como lista"
       btn_class: "btn-outline-primary btn-lg px-5 py-3 mt-5 mx-2"
     - href: '/mapa/'

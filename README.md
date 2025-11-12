@@ -1,9 +1,6 @@
-# Sites do Documentário de Arquitetura Tradicional #
+# Site do documentário de casas tradicionais #
 
 ## Como contribuir
-
-Este repositório é um template. Para criar um novo site com base nele,
-clique no botão "use this template".
 
 Os arquivos padrão para todos os sites, que não devem ser modificados
 isoladamente, se encontram no submódulo `tools/`

@@ -13,6 +13,8 @@ header:
   caption: "Abigail de Andrade, Estrada do Mundo Novo, 1888"
 # triptych: especiais
 templateEngineOverride: njk,md
+eleventyImport:
+  collections: ["w"]
 ---
 
 # Coleções especiais # {.wide}

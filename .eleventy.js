@@ -67,8 +67,8 @@ module.exports = function(eleventyConfig) {
   });
 	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addFilter('countryEmoji', countryEmoji);
-  eleventyConfig.addDataExtension('yml', contents => yaml.load(contents));
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
+  eleventyConfig.addDataExtension('yml', contents => yaml.load(contents));
 	eleventyConfig.addDataExtension('csv', (contents) => {
     const records = parse(contents, {
       columns: true,

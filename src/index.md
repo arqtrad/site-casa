@@ -1,9 +1,10 @@
 ---
 title: "Casa tradicional luso-brasileira"
 description: >
-  Documentário da arquitetura doméstica publicada na bibliografia de referência
+  Documentário da arquitetura doméstica tradicional e vernácula,
+  popular e erudita, no Brasil e no mundo de fala portuguesa.
 layout: "layouts/splash.njk"
-locale: "pt-PT"
+locale: "pt-BR"
 classes:
   - "splash"
   - "wide"
@@ -14,8 +15,12 @@ header:
 # triptych: especiais
 templateEngineOverride: njk,md
 eleventyImport:
-  collections: ["w"]
+  collections: ["casa"]
 ---
+
+<p class="text-center fs-1 lining-nums">
+  {{ collections.casa | length }} casas cadastradas.
+</p>
 
 # Coleções especiais # {.wide}
 
@@ -31,14 +36,15 @@ Em breve.
 
 ```{=html}
 <div class="row row-cols-md-2 row-cols-xl-3 g-3 mx-5">
-{% for post in collections.w | reverse %}
+{% for post in collections.casa | reverse %}
   {% if loop.index0 < 6 %}
     {% include "partials/card-place.njk" %}
   {% endif %}
 {% endfor %}
 </div>
 <div class="d-flex flex-columns row-cols-md-2 row-cols-lg-3 mx-auto mt-4 justify-content-center">
-  <a type="button" href="/w/" class="btn btn-outline-primary btn-lg">
+  <a type="button" href="/lista/" class="btn btn-outline-primary 
+  btn-lg">
     {{ schemata.ui_text[locale].load_all }}
   </a>
 </div>

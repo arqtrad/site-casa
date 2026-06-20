@@ -10,17 +10,17 @@ main:
     target: "_blank"
 
 especiais:
-  - image_path: https://placehold.co/210x210/png
+  - image_path: https://i.pinimg.com/564x/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg
     title     : "Cronologia"
     excerpt   : "Por uma nova cronologia da construção vernacular tradicional"
     url       : /cronologia/
     btn_class : "btn-outline-primary"
-  - image_path: https://placehold.co/210x210/png
+  - image_path: https://i.pinimg.com/564x/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg
     title     : "Quarenta palmos"
     excerpt   : 'Difusão do módulo de 40 palmos de testada em Portugal nos séculos <span style="font-variant:all-small-caps">XIX</span> e <span style="font-variant:all-small-caps">XX</span>'
     url       : /40palmos/
     btn_class : "btn-outline-primary"
-  - image_path: https://placehold.co/210x210/png
+  - image_path: https://i.pinimg.com/564x/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg
     title     : "Sintaxe espacial"
     excerpt   : "Casas brasileiras analisadas segundo a profundidade visual"
     url       : /sintaxe/

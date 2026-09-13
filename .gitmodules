@@ -7,3 +7,6 @@
 [submodule "src/w"]
 	path = src/w
 	url = git@github.com:arqtrad/casa.git
+[submodule "_scss"]
+	path = _scss
+	url = git@github.com:arqtrad/site-scss.git

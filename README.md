@@ -10,7 +10,7 @@ encontram na pasta `src/_data/`. Mas atenção: dentro desta pasta há o
 submódulo `src/_data/schemata` que contém informações padrão para todos
 os sites.
 
-O repositório `*-data` que engloba o conteúdo do subprojeto desejado
+O repositório que engloba o conteúdo do subprojeto desejado
 deve ser adicionado como submódulo do Git em `src/w`.
 
 ------------
